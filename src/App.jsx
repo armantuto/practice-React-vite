@@ -8,13 +8,18 @@ import Usuario from './components/chatgtp'
 import HouseList from './components/HouseList'
 import Show from './components/MostrasTexto'
 import Api from "./components/apiPollo"
+import CamaraTest from './components/camara'
+import MotionDetector from './components/camara'
+import Appoo from './components/ignition'
+import Appiii from './components/consumoapi'
+import Appooooo from './components/tia'
 
 function App() {
 
 
   return (
     <>
-     <Banner headerText ="sell houses"/>
+     {/* <Banner headerText ="sell houses"/>
      <HouseList/>
      <Usuario nombre="arma"/>
      <Producto/>
@@ -22,6 +27,11 @@ function App() {
      <Boton/>
      <Show/>
      <Api/>
+     <Boton/> 
+   <MotionDetector/>*/}
+    {/* <Appoo/> */}
+    <Appooooo/>
+  {/* <Appiii/> */}
     </>
   )
 }
